@@ -8,7 +8,7 @@ class Development(Config):
     # the name to display in your alive message
     ALIVE_NAME = "Your value"
     # create any PostgreSQL database (i recommend to use elephantsql) and paste that link here
-    DB_URI = "Your value"
+    DB_URI = "postgresql://postgres:your_password@localhost:5432/catuserbot"
     # After cloning the repo and installing requirements do python3 stringsetup.py an fill that value with this
     STRING_SESSION = "Your value"
     # create a new bot in @botfather and fill the following vales with bottoken
